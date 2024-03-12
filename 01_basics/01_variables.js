@@ -1,10 +1,13 @@
+// How to print output in terminal -> write node+space+folder_name+/(slace)+file_name
+
 const accountId = 144553
 let accountEmail = "hitesh@google.com"
 var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
-// accountId = 2 // not allowed
+// accountId = 2 
+// we can defined at one time constatnt variable
 
 
 accountEmail = "hc@hc.com"
@@ -20,3 +23,5 @@ because of issue in block scope and functional scope
 
 
 console.table([accountId, accountEmail, accountPassword, accountCity, accountState])
+
+// we can make table from this keyword and pass inside blocks only variable name

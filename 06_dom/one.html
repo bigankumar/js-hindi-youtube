@@ -29,3 +29,91 @@
     </div>
 </body>
 </html>
+
+
+
+
+
+
+<!-- 
+**************************-------------**************************-------------**************************-------------**************************
+
+
+This thing write in inspect of web (https://en.wikipedia.org/wiki/Brendan_Eich) 
+
+1. console.log(window) //window is a object
+2. console.log(window.document) // we can write => console.log(document)
+3. console.log(document.baseURI) //for base url
+4. console.log(document.links)  //for all links
+5. console.log(document.links[2])  //for 2nd links
+6. document.getElementById('firstHeading') //Head selecting by id
+7. document.getElementById('firstHeading').innerHTML="<h1>Chai aur code</h1>" //Replace from id selecter
+
+
+-->
+ 
+<!-- 
+1. document.getElementById('title')  // show title id 
+2. document.getElementById('title').id  // show id name 
+3. document.getElementById('title').class  // does not work
+4. document.getElementById('title').className // show class name
+5. document.getElementById('title').getAttribute  // does not show attribute because we had not passed any parameter
+6. document.getElementById('title').getAttribute('id')  // show name of id attribute
+7. document.getElementById('title').getAttribute('class')  // show name of class attribute
+8. document.getElementById('title').setAttribute('class', 'test')  // from this code will be overwrite our class with test
+9. document.getElementById('title').setAttribute('class', 'test heading ')  // we had set two class 1 test 2 heading
+10. const title=document.getElementById('title') // we assigning this value in title variable
+11. title.style.backgroundColor='green' // We are assigning background color with green
+12. title.style.padding='15px'  // we are giving 15px in padding
+13. title.style.borderRadius='15px'  // we are giving 15px border radius
+14. title.textContent // this will show all content
+15. title.innerHTML // this will show content with all html
+16. title.innerText // this will show only visible content
+
+
+17. document.querySelector('h1')  // this will give first h1 tag
+18. document.querySelector('h2')  // this will give first h2 tag
+19. document.querySelector('#title')  // this will search by id
+20. document.querySelector('.heading') // this will search by class
+21. document.querySelector('input[type="password"]') // this will be select input password type
+22. document.querySelector('p:first-child') //this will be select paragraph of first child type
+
+
+23. document.querySelector('ul') //this will select unorderd list
+24. const myUl=document.querySelector('ul') //this will store in myUl variable
+25. myUl.querySelector('li') //this will select list inside ul 
+26. const turnGreen=myUl.querySelector('li') //this will store in turnGreen variable 
+27. turnGreen.style.backgroundColor='green' //this will change in background color
+28. turnGreen.style.padding='15px' //this will change in padding 
+29. turnGreen.style.borderRadius='15px'  //this will change in border radius 
+30. turnGreen.innerText  // give inner text of this variable
+31. turnGreen.innerText='five' // change inner text with five
+
+
+32. document.querySelectorAll  //select all 
+33. document.querySelectorAll('li')  //select only li
+34. const tempLiList=document.querySelectorAll('li')  //define in tempList
+35. tempLiList.style.color='green' //change color in green but this will not run because without giving any node position this can not run
+36. tempLiList[0].style.color='green'  //this will change in green 
+
+
+37. document.querySelectorAll('h1') //select all h1
+38. const myH1=document.querySelectorAll('h1')  //define myH1
+39. myH1.style.color ='green'  //change color in green but this will not run because without giving any node position this can not run
+40. myH1[0].style.color ='green' //this will change in green 
+
+41. const tempList=document.querySelectorAll('li')
+42. tempList.forEach(function (l) {
+    l.style.backgroundColor= 'green' }) //direct change with forEach function
+
+
+43. document.getElementsByClassName('list-item) //select list item
+44. const tempClassList=document.getElementsByClassName('list-item') //define list item
+45. tempClassList.forEach(function(li) {
+    console.log(li)  })  // using on this forEach but this can not use because this is html collection
+
+46. Array.from(tempClassList) // convert in Array
+47. const myConvertedArray= Array.from(tempClassList) //define Array in variable
+48. myConvertedArray.forEach(function(l) {
+    l.style.color='green'    })  //useing forEach on Array
+-->

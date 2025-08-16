@@ -23,6 +23,12 @@ let state;
 // symbol => unique
 
 
+// console.log(typeof name);
+// console.log(typeof age);
+// console.log(typeof isLoggedIn);
+// console.log(typeof sate);
+
+
 // object
 
 console.log(typeof undefined); // undefined

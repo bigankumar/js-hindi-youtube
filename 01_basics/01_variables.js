@@ -6,15 +6,21 @@ var accountPassword = "12345"
 accountCity = "Jaipur"
 let accountState;
 
+// console.log(accountEmail);
+// console.log(accountPassword);
+// console.log(accountCity);
+
 // accountId = 2 
 // we can defined at one time constatnt variable
-
 
 accountEmail = "hc@hc.com"
 accountPassword = "21212121"
 accountCity = "Bengaluru"
 
-console.log(accountId);
+// console.log(accountId);
+// console.log(accountEmail);
+// console.log(accountPassword);
+// console.log(accountCity);
 
 /*
 Prefer not to use var
